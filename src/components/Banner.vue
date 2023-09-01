@@ -14,7 +14,7 @@
                         </router-link>
 
                         <div class="scroll">
-                            <a href="#training"><img src="../assets/images/scroll.png" alt=""></a>
+                            <a href="#training"><img src="../assets/images/Scroll.png" alt=""></a>
                         </div>
                     </div>
                 </div>
