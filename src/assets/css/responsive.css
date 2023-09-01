@@ -1,0 +1,886 @@
+
+@media only screen and (min-width: 1200px){
+    .exercise-item.right .image-two:before{
+        display: none;
+    }
+    .members-item-outer:nth-child(even) {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    h4 {
+        font-size: 27px!important;
+    }
+    .nav-item .nav-link {
+        padding: 25px 10px !important;
+    }
+
+    /* Training */
+    .training {
+        padding: 110px 18px 25px!important;
+    }
+    .content-part .swiper {
+        padding-bottom: 15px;
+    }
+    .swiper-wrapper {
+        padding-bottom: 15px;
+    }
+    .swiper-pagination {
+        display: none!important;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: inline-block!important;
+    }
+
+    .small-group-item p {
+        font-size: 16px;    
+    }
+
+
+    .people-item.right {
+        padding: 10px 0px 0px 25px;
+    }
+
+    /* Members */
+    .members-main {
+        padding: 0px 30px;
+    }
+    .members-main{
+        display: block;
+    }
+    .members-item-outer{
+        width: 100%;
+        margin: 0px;
+    }
+    .members-item-outer:nth-child(even) {
+        padding-top: 0;
+    }
+
+
+    .exercise-item.right .image-two:before,
+    .strong-people .people-item.left:before {
+        display: none;
+    }
+
+    .small-image-box img,
+    .people-item.left img {
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .exercise-item.right {
+        padding-bottom: 100px;
+        padding-top: 40px;
+    }
+    .small-group-main {
+        padding: 0px 65px;
+    }
+    .pricing-outer:nth-child(2) .weight-loss {
+        padding: 35px;
+    }
+    .weight-loss p {
+        font-size: 15px;
+    }
+    .pricing-outer:nth-child(2) .join {
+        padding: 45px 0px;
+    }
+
+    .strong-people .people-item.left {
+        padding: 0px 60px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    h2 {
+        font-size: 28px!important;
+    }
+    h3 {
+        font-size: 27px!important;
+    }
+    h4 {
+        font-size: 27px!important;
+    }
+    h5 {
+        font-size: 20px!important;
+    }
+
+    /* Header CSS */
+    header {
+        position:sticky!important;
+        box-shadow: var(--shadow-black);
+    }
+    .header-top .social a {
+        font-weight: 500;
+        padding: 10px 17px;
+        color: var(--light-green)!important;
+    }
+    .header-top .contact a{
+        padding: 10px 7px;
+        color: var(--gray-blue)!important;
+        border: none!important;
+        letter-spacing: -0.5px;
+    }
+    .header-top .contact span:first-child a{
+        padding-left:0!important;
+    }
+    .header-top .social span:last-child a{
+        padding-right: 0!important;
+        border-right: none!important;
+    }
+    .header-top .contact span:last-child{
+        display: none
+    }
+    .header-top .contact span:nth-child(2) a{
+        border-left: none
+    }
+    .navbar-brand {
+        font-size: 1.2rem!important;
+    }
+    .navbar-nav.main-nav .nav-item .nav-link {
+        font-weight: 500;
+        padding: 7px 0px !important;
+        position: relative;
+    }
+    ul.dropdown-menu li span.titleText {
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    .nav-item.flag-item .nav-link.dropdown-toggle:after{
+        display: block!important;
+    }
+    .mega-menu:before{
+        display: none!important;
+    }
+    .nav-item .mega-menu.active a{
+        font-weight: 500;
+    }
+    ul.flag.position-absolute {
+        position: relative!important;
+        width: 100%!important;
+        display: none;
+    }
+    li.nav-item.flag-item ul.flag{
+        left: 0;
+    }
+    li.nav-item.flag-item:hover ul.flag {
+        display: none!important;
+    }
+    li.nav-item.flag-item ul.flag.active{
+        display: block!important;
+    }
+    ul.flag.d-none.position-absolute,.mega-menu.w-100{
+        position: initial!important;
+        width: 100%!important;
+    }
+    .nav-item.search a {
+        padding: 20px 15px!important;
+    }
+    .nav-item.contact-btn a{
+        margin-left: 0;
+        padding: 10px!important;
+    }
+    .offcanvas.offcanvas-end{
+        border-left: none!important;
+    }
+    
+    button.navbar-toggler {
+        padding: 0!important;
+    }
+    .navbar-toggler{
+        border: none!important;
+    }
+    .dropdown-toggle::after {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .navbar-toggler:focus,.navbar-toggler:focus-visible{
+        box-shadow: none!important;
+        outline: none;
+    }
+
+
+
+    /* Banner */
+    .banner-section {
+        background-size: cover;
+        padding: 100px 30px 140px!important;
+        margin: 0!important;
+    }
+    .banner-text h1 {
+        font-size: 32px!important;
+    }
+    .banner-text p {
+        font-size: 17px;
+        margin-bottom: 45px;
+        width: 50%;
+    }
+    .scroll {
+        display: none;
+    }
+
+
+    /* Training cs */
+    .training {
+        padding: 30px 18px 0px!important;
+    }
+    .content-part .swiper {
+        padding-bottom: 15px;
+    }
+    .swiper-wrapper {
+        padding-bottom: 15px;
+    }
+    .swiper-pagination {
+        display: none!important;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: inline-block!important;
+    }
+    
+
+
+    /* Exercise css */
+    .exercise.wrapper .container,
+    .strong-people .container {
+        padding: 0;
+    }
+    .exercise-main, .strong-people-main {
+        border-radius: 0px;
+        padding: 100px 30px;
+    }
+    .exercise-item-inner {
+        display: block;
+    }
+    .inner-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .inner-right p {
+        padding-right: 0;
+    }
+
+    
+    .exercise-item.right .image-two:before,
+    .strong-people .people-item.left:before {
+        display: none;
+    }
+
+    .small-image-box img,
+    .people-item.left img {
+        width: 100%;
+    }
+
+
+    /* Small Group css */
+    .group-item-text {
+        margin-top: 0;
+    }
+    .small-group {
+        padding: 50px 30px;
+    }
+    .small-group-item p {
+        font-size: 18px;
+    }
+    .small-group-item.right {
+        margin-top: 60px;
+    }
+
+
+    /* Pricing */
+    .pricing-main {
+        padding: 0px 10px;
+    }
+    .pricing-outer:nth-child(2) {
+        width: 33.33%;
+    }
+    
+    .pricing-outer {
+        border-radius: 15px!important;
+        margin-bottom: 30px!important;
+    }
+    
+
+    .people-item.right {
+        padding: 0;
+        margin-top: 50px;
+    }
+    .people-item.right p,
+    .signup-main p {
+        font-size: 16px;
+    }
+    
+    
+    /* Members */
+    .members-main {
+        padding: 0px 30px;
+    }
+    .members-main{
+        display: block;
+    }
+    .members-item-outer{
+        width: 100%;
+        margin: 0px;
+    }
+    .members-item-outer:nth-child(even) {
+        padding-top: 0;
+    }
+
+    .signup-section {
+        margin-bottom: 0;
+    }
+
+
+    /* Footer */
+    footer{
+        position: relative
+    }
+    
+    .top-menu .social span:first-child a{
+        padding-left: 0!important;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px){
+    h2 {
+        font-size: 28px!important;
+    }
+    h3 {
+        font-size: 27px!important;
+    }
+    h4 {
+        font-size: 27px!important;
+    }
+    h5 {
+        font-size: 20px!important;
+    }
+    br{
+        display:none!important;
+    }
+
+    /* Header CSS */
+    header {
+        box-shadow: var(--shadow-black);
+    }
+    .header-top .social a {
+        font-weight: 500;
+        padding: 10px 17px;
+        color: var(--light-green)!important;
+    }
+    .header-top .contact a{
+        padding: 10px 7px;
+        color: var(--gray-blue)!important;
+        border: none!important;
+        letter-spacing: -0.5px;
+    }
+    .header-top .contact span:first-child a{
+        padding-left:0!important;
+    }
+    .header-top .social span:last-child a{
+        padding-right: 0!important;
+        border-right: none!important;
+    }
+    .header-top .contact span:last-child{
+        display: none
+    }
+    .header-top .contact span:nth-child(2) a{
+        border-left: none
+    }
+    .navbar-brand {
+        font-size: 1.2rem!important;
+    }
+    .navbar-nav.main-nav .nav-item .nav-link {
+        font-weight: 500;
+        padding: 7px 0px !important;
+        position: relative;
+    }
+    ul.dropdown-menu li span.titleText {
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    .nav-item.flag-item .nav-link.dropdown-toggle:after{
+        display: block!important;
+    }
+    .mega-menu:before{
+        display: none!important;
+    }
+    .nav-item .mega-menu.active a{
+        font-weight: 500;
+    }
+    ul.flag.position-absolute {
+        position: relative!important;
+        width: 100%!important;
+        display: none;
+    }
+    li.nav-item.flag-item ul.flag{
+        left: 0;
+    }
+    li.nav-item.flag-item:hover ul.flag {
+        display: none!important;
+    }
+    li.nav-item.flag-item ul.flag.active{
+        display: block!important;
+    }
+    ul.flag.d-none.position-absolute,.mega-menu.w-100{
+        position: initial!important;
+        width: 100%!important;
+    }
+    .nav-item.search a {
+        padding: 20px 15px!important;
+    }
+    .nav-item.contact-btn a{
+        margin-left: 0;
+        padding: 10px!important;
+    }
+    .offcanvas.offcanvas-end{
+        border-left: none!important;
+    }
+    
+    button.navbar-toggler {
+        padding: 0!important;
+    }
+    .navbar-toggler{
+        border: none!important;
+    }
+    .dropdown-toggle::after {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .navbar-toggler:focus,.navbar-toggler:focus-visible{
+        box-shadow: none!important;
+        outline: none;
+    }
+
+
+
+    /* Banner */
+    .banner-section {
+        background-image: none;
+        padding: 85px 18px!important;
+    }
+    .banner-text h1 {
+        font-size: 32px!important;
+    }
+    .banner-text p {
+        font-size: 17px;
+        margin-bottom: 45px;
+        width: 100%;
+    }
+    .scroll {
+        display: none;
+    }
+
+
+    /* Training cs */
+    .training {
+        padding: 30px 18px 0px!important;
+    }
+    .content-part .swiper {
+        padding-bottom: 15px;
+    }
+    .swiper-wrapper {
+        padding-bottom: 15px;
+    }
+    .swiper-pagination {
+        display: none!important;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: inline-block!important;
+    }
+    
+
+
+    /* Exercise css */
+    .exercise.wrapper .container,
+    .strong-people .container {
+        padding: 0;
+    }
+    .exercise-main, .strong-people-main {
+        border-radius: 0px;
+        padding: 100px 30px;
+    }
+    .exercise-item-inner {
+        display: block;
+    }
+    .inner-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .inner-right p {
+        padding-right: 0;
+    }
+
+    .exercise-item.right {
+        display: flex;
+        flex-direction: column;
+    }
+    .image-one.image {
+        order: 2;
+    }
+    .exercise-item.right .image-one {
+        margin-right: auto;
+    }
+    .exercise-item.right .image-two {
+        position: relative;
+        top: inherit;
+        margin-top: 65px;
+        left: inherit;
+        margin-left: auto;
+    }
+    .exercise-item.right .image-two:before,
+    .strong-people .people-item.left:before {
+        display: none;
+    }
+    .image-one.image img,
+    .image-two.image img, 
+    .small-image-box img,
+    .people-item.left img {
+        width: 100%;
+    }
+
+
+    /* Small Group css */
+    .group-item-text {
+        margin-top: 0;
+    }
+    .small-group {
+        padding: 50px 30px;
+    }
+    .small-group-item p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .small-group-item.right {
+        margin-top: 60px;
+    }
+
+
+    /* Pricing */
+    .pricing-main {
+        padding: 0px 30px;
+    }
+    .pricing-outer {
+        border-radius: 15px!important;
+        margin-bottom: 30px!important;
+    }
+
+    .people-item.right {
+        padding: 0;
+        margin-top: 50px;
+    }
+    .people-item.right p,
+    .signup-main p {
+        font-size: 16px;
+    }
+    
+    
+    /* Members */
+    .members-main {
+        padding: 0px 30px;
+    }
+    .members-main,
+    .main-pricing {
+        display: block;
+    }
+    .members-item-outer,
+    .pricing-outer,
+    .pricing-outer:nth-child(2) {
+        width: 100%;
+        margin: 0px;
+    }
+    .members-item-outer:nth-child(even) {
+        padding-top: 0;
+    }
+
+    .signup-section {
+        margin-bottom: 0;
+    }
+
+
+    /* Footer */
+    footer{
+        position: relative
+    }
+    .top-menu ul li {
+        padding: 0;
+    }
+    .top-menu .social span:first-child a{
+        padding-left: 0!important;
+    }
+}
+
+
+@media only screen and (max-width: 575px){
+    h2 {
+        font-size: 28px!important;
+    }
+    h3 {
+        font-size: 27px!important;
+    }
+    h4 {
+        font-size: 27px!important;
+    }
+    h5 {
+        font-size: 20px!important;
+    }
+    br{
+        display:none!important;
+    }
+
+    /* Header CSS */
+    header {
+        box-shadow: var(--shadow-black);
+    }
+    .header-top .social a {
+        font-weight: 500;
+        padding: 10px 17px;
+        color: var(--light-green)!important;
+    }
+    .header-top .contact a{
+        padding: 10px 7px;
+        color: var(--gray-blue)!important;
+        border: none!important;
+        letter-spacing: -0.5px;
+    }
+    .header-top .contact span:first-child a{
+        padding-left:0!important;
+    }
+    .header-top .social span:last-child a{
+        padding-right: 0!important;
+        border-right: none!important;
+    }
+    .header-top .contact span:last-child{
+        display: none
+    }
+    .header-top .contact span:nth-child(2) a{
+        border-left: none
+    }
+    .navbar-brand {
+        font-size: 1.2rem!important;
+    }
+    .navbar-nav.main-nav .nav-item .nav-link {
+        font-weight: 500;
+        padding: 7px 0px !important;
+        position: relative;
+    }
+    ul.dropdown-menu li span.titleText {
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    .nav-item.flag-item .nav-link.dropdown-toggle:after{
+        display: block!important;
+    }
+    .mega-menu:before{
+        display: none!important;
+    }
+    .nav-item .mega-menu.active a{
+        font-weight: 500;
+    }
+    ul.flag.position-absolute {
+        position: relative!important;
+        width: 100%!important;
+        display: none;
+    }
+    li.nav-item.flag-item ul.flag{
+        left: 0;
+    }
+    li.nav-item.flag-item:hover ul.flag {
+        display: none!important;
+    }
+    li.nav-item.flag-item ul.flag.active{
+        display: block!important;
+    }
+    ul.flag.d-none.position-absolute,.mega-menu.w-100{
+        position: initial!important;
+        width: 100%!important;
+    }
+    .nav-item.search a {
+        padding: 20px 15px!important;
+    }
+    .nav-item.contact-btn a{
+        margin-left: 0;
+        padding: 10px!important;
+    }
+    .offcanvas.offcanvas-end{
+        border-left: none!important;
+    }
+    
+    button.navbar-toggler {
+        padding: 0!important;
+    }
+    .navbar-toggler{
+        border: none!important;
+    }
+    .dropdown-toggle::after {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .navbar-toggler:focus,.navbar-toggler:focus-visible{
+        box-shadow: none!important;
+        outline: none;
+    }
+
+
+
+    /* Banner */
+    .banner-section {
+        background-image: none;
+        padding: 85px 18px!important;
+    }
+    .banner-text h1 {
+        font-size: 32px!important;
+    }
+    .banner-text p {
+        font-size: 17px;
+        margin-bottom: 45px;
+        width: 100%;
+    }
+    .scroll {
+        display: none;
+    }
+
+
+    /* Training cs */
+    .training {
+        padding: 30px 18px 0px!important;
+    }
+    .content-part .swiper {
+        padding-bottom: 15px;
+    }
+    .swiper-wrapper {
+        padding-bottom: 15px;
+    }
+    .swiper-pagination {
+        display: none!important;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: inline-block!important;
+    }
+    
+
+
+    /* Exercise css */
+    .exercise.wrapper .container,
+    .strong-people .container {
+        padding: 0;
+    }
+    .exercise-main, .strong-people-main {
+        border-radius: 0px;
+        padding: 100px 30px;
+    }
+    .exercise-item-inner {
+        display: block;
+    }
+    .inner-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .inner-right p {
+        padding-right: 0;
+    }
+
+    .exercise-item.right {
+        display: flex;
+        flex-direction: column;
+    }
+    .image-one.image {
+        order: 2;
+    }
+    .exercise-item.right .image-one {
+        margin-right: auto;
+    }
+    .exercise-item.right .image-two {
+        position: relative;
+        top: inherit;
+        margin-top: 65px;
+        left: inherit;
+        margin-left: auto;
+    }
+    .exercise-item.right .image-two:before,
+    .strong-people .people-item.left:before {
+        display: none;
+    }
+    .image-one.image img,
+    .image-two.image img, 
+    .small-image-box img,
+    .people-item.left img {
+        width: 100%;
+    }
+
+
+    /* Small Group css */
+    .group-item-text {
+        margin-top: 0;
+    }
+    .small-group {
+        padding: 50px 30px;
+    }
+    .small-group-item p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .small-group-item.right {
+        margin-top: 60px;
+    }
+
+
+    /* Pricing */
+    .pricing-outer {
+        border-radius: 15px!important;
+        margin-bottom: 30px!important;
+    }
+
+    .people-item.right {
+        padding: 0;
+        margin-top: 50px;
+    }
+    .people-item.right p,
+    .signup-main p {
+        font-size: 16px;
+    }
+    
+    
+    /* Members */
+    .members-main {
+        padding: 0px 30px;
+    }
+    .members-main,
+    .main-pricing {
+        display: block;
+    }
+    .members-item-outer,
+    .pricing-outer,
+    .pricing-outer:nth-child(2) {
+        width: 100%;
+        margin: 0px;
+    }
+    .members-item-outer:nth-child(even) {
+        padding-top: 0;
+    }
+
+    .signup-section {
+        margin-bottom: 0;
+    }
+
+
+    /* Footer */
+    footer{
+        position: relative
+    }
+    .top-menu ul li {
+        padding: 0;
+    }
+    .top-menu .social span:first-child a{
+        padding-left: 0!important;
+    }
+}
